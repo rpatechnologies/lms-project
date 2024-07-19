@@ -1,0 +1,28 @@
+/* sidebar.module.css */
+
+.sidebar {
+        width: 280px;
+            height: 100vh;
+            background: white !important;
+            border-right: 1px solid #E1E1E1;
+}
+
+.navLink {
+    color: gray;
+    /* Default inactive text color */
+    background-color: transparent;
+    /* Default inactive background color */
+}
+
+.active {
+    color: black;
+    /* Active text color */
+    background-color: #F7F7F8;
+    /* Active background color */
+}
+.span:hover{
+color: none  !important;
+}
+.nav-link:focus {
+    color: none !important;
+}

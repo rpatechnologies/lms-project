@@ -1,0 +1,246 @@
+.form {
+    width: -webkit-fill-available;
+}
+
+.manidiv {
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    overflow: hidden;
+}
+
+.col1 {
+    padding: 0px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.col1Img {
+    /* height: 800px; */
+    height: 100vh;
+    width: -webkit-fill-available;
+}
+
+.col2 {
+    padding: 3rem 10rem 3rem 3rem;
+    height: 100vh;
+}
+
+.h1 {
+    font-size: 30px;
+    margin-bottom: 25px;
+    font-weight: 600;
+    color: #000;
+
+}
+
+.acc {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+    color: #696969;
+    margin-bottom: 20px;
+
+}
+
+.contactUs {
+    color: #204A96;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+
+}
+
+.formGroup {
+    /* width: 485px; */
+    width: -webkit-fill-available;
+    margin-top: 20px;
+}
+
+.FormLabel {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+    color: #656565;
+}
+
+.btn {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 25px;
+
+}
+
+.checkBoxparant {
+    margin-top: 20px;
+    display: flex;
+    width: -webkit-fill-available;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 38rem; */
+}
+
+.checkbx {
+    display: flex;
+    align-items: center;
+}
+
+.checkbx input[type="checkbox"] {
+    border-radius: 0.25em;
+    height: 23px;
+    width: 23px;
+    margin-right: 10px;
+}
+
+.checkbx label {
+    margin: 0;
+}
+
+.submitBtn {
+    width: -webkit-fill-available;
+    height: 48px;
+    border-radius: 8px;
+    background-color: #003087;
+    color: white;
+    font-size: 16px;
+}
+
+.custom-input {
+    padding-left: 20px;
+}
+
+.formGroup {
+    position: relative;
+}
+
+.formControl {
+    padding-left: 60px;
+    width: -webkit-fill-available;
+    height: 48px;
+    border-radius: 8px;
+    background-color: #F3F3F3;
+}
+.formControlDes{
+    /* padding-left: 0px; */
+    width: -webkit-fill-available;
+    height: 232px;
+    border-radius: 8px;
+    background-color: #F3F3F3;
+}
+.inputIcon {
+    position: absolute;
+    left: 21px;
+    top: 72%;
+    transform: translateY(-50%);
+    /* width: 17px;
+    height: 20px; */
+    pointer-events: none;
+}
+
+.nolimits {
+    margin: 0px;
+    font-size: 40px;
+    font-weight: 500;
+    color: #00FFF0;
+}
+
+.custom-input::placeholder {
+    color: gray;
+    text-align: left;
+}
+
+.text {
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+}
+
+.imagesDiv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textMainDiv {
+    position: absolute;
+}
+
+.arrows {
+    margin: 0px 10px;
+}
+
+.form-control:focus {
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    border-color: none !important;
+    outline: 0;
+    box-shadow: none !important;
+}
+
+@media (max-width : 767px) {
+    .manidiv {
+        height: auto !important;
+    }
+
+    .col1 {
+        height: auto !important;
+    }
+
+    .text {
+        font-size: 35px;
+        font-weight: 500;
+
+    }
+
+    .nolimits {
+        font-size: 35px;
+        font-weight: 500;
+    }
+
+    .col1Img {
+        height: auto;
+        width: -webkit-fill-available;
+    }
+
+    .checkBoxparant {
+        width: 20rem !important;
+    }
+
+    .col2 {
+        padding: 2rem 2rem !important;
+        width: -webkit-fill-available;
+        height: auto;
+    }
+
+    .formControl {
+        width: -webkit-fill-available !important;
+    }
+
+    .btn {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start !important;
+        align-items: center;
+        margin-top: 25px;
+    }
+
+    .submitBtn {
+        width: -webkit-fill-available !important;
+    }
+
+}
